@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <script src="https://kit.fontawesome.com/faefa221a9.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    body{
+        background-image:url("C:/Users/Harsh/Downloads/imgtr.jpg");
+        background-size: cover;
+        text-align: center;
+    }
+#header{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+}
+#header img{
+    float: left;
+    margin-left: 50px;
+
+}
+#header p{
+    float: left;
+    margin-left: 120px;
+}
+select{
+    margin-top: 18px;
+    border-radius: 5px;
+    
+}
+#div2 {
+    height: 500px;
+    width: 40%;
+    margin-left:50px ;
+    text-align: center;
+}
+h1{
+    font-family: cursive;
+}
+ h5{
+    padding-top: 30px;
+    margin: 0px;
+
+}
+h2{
+    font-size: 50px;
+}
+.p2{
+    font-size: 20px;
+    padding: 0px 30px 30px 30px;
+    color:white;
+}
+button{
+    height: 35px;
+    width: 20%;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: larger;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+</style>
+<body>
+    <div id="header">
+        <img src="C:\Users\Harsh\Downloads\logotr-removebg-preview.png">
+       <p><a href="#">home</a></p>
+       <p><a href="#">Destinations</a></p>
+       <p><a href="#">Hotels</a></p>
+       <p><a href="#">Flights</a></p>
+       <p><a href="#">Bookings</a></p>
+       <p><a href="#">Log in</a></p>
+       <p><a href="#">Sign up</a></p>
+       <select>
+        <option>Hindi</option>
+        <option>English</option>
+        <option>Spanish</option>
+        <option>French</option>
+       </select>
+    </div>
+    <hr>
+    <h1>TRAVEL THE WORLD WITH ME</h1>
+    <div id="div2">
+        <h5>BEST DESTINATIONS AROUND THE WORLD</h5>
+        <h2>Travel , Enjoy , and new and full life</h2>
+        <p class="p2">"Embark on a journey that transcends borders and unlocks the wonders of the world.
+             Explore, discover, and let the beauty of travel unfold with every adventure."</p>
+
+             <button>Find out more</button>
+             <button>Play Demo</button>
+
+    </div>
+</body>
+</html>
